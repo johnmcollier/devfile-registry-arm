@@ -10,7 +10,7 @@ projects:
 components:
   - type: dockerimage
     alias: runtime
-    image: quay.io/eclipse/che-nodejs10-ubi:nightly
+    image: arm32v7/nodejs:10
     memoryLimit: 1024Mi
     mountSources: true
     endpoints:
