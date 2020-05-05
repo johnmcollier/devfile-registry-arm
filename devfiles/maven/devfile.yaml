@@ -4,7 +4,7 @@ metadata:
 components:
   - type: dockerimage
     alias: tools
-    image: quay.io/eclipse/che-java11-maven:nightly
+    image: arm32v7/maven:latest
     memoryLimit: 512Mi
     mountSources: true
     endpoints:
@@ -18,9 +18,9 @@ commands:
     actions:
       - type: exec
         component: tools
-        command: "mvn package"
+        command: "cd /projects && mvn package"
   - name: devRun
     actions:
       - type: exec
         component: tools
-        command: "java -jar target/*.jar"
+        command: "cd /projects && java -jar target/*.jar"
