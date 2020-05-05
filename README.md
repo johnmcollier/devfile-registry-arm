@@ -1,6 +1,6 @@
-# devfiles registry
+# devfile-registry-arm
 
-A repository for storing sample devfiles for odo and others
+A repository of devfiles that use arm32v7 arch docker images
 
 ## regenerate index.json
 
