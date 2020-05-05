@@ -25,29 +25,5 @@
     "links": {
       "self": "/devfiles/nodejs/devfile.yaml"
     }
-  },
-  {
-    "displayName": "Open Liberty",
-    "description": "Open Liberty microservice in Java",
-    "projectType": "docker",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/openLiberty/devfile.yaml"
-    }
-  },
-  {
-    "displayName": "Spring Boot®",
-    "description": "Spring Boot® using Java",
-    "tags": [
-      "Java",
-      "Spring"
-    ],
-    "globalMemoryLimit": "2674Mi",
-    "icon": "https://www.eclipse.org/che/images/logo-eclipseche.svg",
-    "projectType": "spring",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/springBoot/devfile.yaml"
-    }
   }
 ]
